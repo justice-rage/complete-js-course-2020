@@ -20,4 +20,7 @@ let person = 'jonas'
 let PI = 3.1415;
 */
 
-
+true;
+console.log(true);
+let javascriptIsFun = true;
+console.log(javascriptIsFun);
