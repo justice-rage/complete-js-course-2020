@@ -59,9 +59,10 @@ job = 'teacher';
 
 lastName = 'Douglas'
 console.log(lastName);
-*/
 
-// Math Opertors 
+// Lecture: Basic Operators
+
+// Math Opertors
 const now = 2037;
 const ageJustice = now - 1995;
 const ageSarah = now - 2018;
@@ -90,3 +91,4 @@ console.log(ageSarah >= 18);
 const isFullAge = ageSarah >= 18;
 
 console.log(now - 1991 > now - 2018);
+*/
