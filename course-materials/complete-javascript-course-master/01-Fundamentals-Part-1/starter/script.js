@@ -123,4 +123,28 @@ console.log(markBMI, johnBMI);
 const markHigherBMI = markBMI > johnBMI;
 console.log(markHigherBMI);
 
+// Lecture: Strings and Template Literals
+
+const firstName = 'Justice';
+const job = 'software engineer';
+const birthYear = 1995;
+const year = 2037;
+const age = year - birthYear;
+
+const justice = "I'm " + firstName + ', a ' + (year - birthYear) + ' years old ' + job + '!';
+console.log(justice);
+
+const justiceNew = `I'm ${firstName}, a ${age} years old ${job}!`;
+console.log(justiceNew);
+
+console.log(`Just a normal string...`)
+
+console.log('String with \n\
+multiple \n\
+lines');
+
+console.log(`String
+multiple
+lines`);
+
 */
