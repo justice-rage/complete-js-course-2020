@@ -108,4 +108,19 @@ const averageAge = (ageJustice + ageSarah) / 2;
 console.log(averageAge);
 console.log(ageJustice, ageSarah, averageAge);
 
+// Coding Challenge #1
+
+const markMass = 78;
+const markHeight = 1.69;
+const johnMass = 92;
+const johnHeight = 1.95;
+
+let markBMI = markMass / markHeight ** 2;
+let johnBMI = johnMass / johnHeight ** 2;
+
+console.log(markBMI, johnBMI);
+
+const markHigherBMI = markBMI > johnBMI;
+console.log(markHigherBMI);
+
 */
