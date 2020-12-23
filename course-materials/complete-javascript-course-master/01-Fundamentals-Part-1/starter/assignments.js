@@ -1,4 +1,3 @@
-/*
 
 // Lecture: Values and Variables
 
@@ -37,4 +36,5 @@ console.log(population < averageCountryPopulation);
 
 let description = 'Portugal is in Europe, and its 11 million people speak portuguese.';
 
-*/
+const newDescription = `Portugal is in Europe, and its 11 million people speak portuguese.`;
+console.log(newDescription);
