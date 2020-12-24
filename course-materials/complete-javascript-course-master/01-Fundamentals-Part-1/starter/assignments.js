@@ -46,4 +46,20 @@ if (population > 33000000) {
 } else {
     console.log(`The United States' population is below average.`)
 }
+
+// Lecture: Type Conversion and Coercion
+
+// Initial Predictions:
+// 4
+// 617
+// 23
+// false
+// 117
+
+console.log('9' - '5');
+console.log('19' - '13' + '17');
+console.log('19' - '13' + 17);
+console.log('123' < 57);
+console.log(5 + 6 + '4' + 9 - 4 - 2);
+
 */
