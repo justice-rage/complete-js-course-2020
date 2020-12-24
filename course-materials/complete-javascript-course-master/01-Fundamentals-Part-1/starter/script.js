@@ -252,3 +252,7 @@ if (favorite == 23) {
     console.log(`Number is not 23, 7 or 9.`)
 } if (favorite !== 23) console.log(`Why not 23?`);
 */
+
+// Lecture: Boolean Logic
+
+// No code written during this lecture.
