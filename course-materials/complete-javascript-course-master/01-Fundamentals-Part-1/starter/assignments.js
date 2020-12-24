@@ -38,4 +38,12 @@ let description = 'Portugal is in Europe, and its 11 million people speak portug
 
 const newDescription = `Portugal is in Europe, and its 11 million people speak portuguese.`;
 console.log(newDescription);
+
+// Lecture: Taking decisions: if / else Statements
+
+if (population > 33000000) {
+    console.log(`The United States' population is above average.`)
+} else {
+    console.log(`The United States' population is below average.`)
+}
 */
