@@ -1,4 +1,4 @@
-
+/*
 // Lecture: Values and Variables
 
 let country = 'U.S.A'
@@ -38,3 +38,4 @@ let description = 'Portugal is in Europe, and its 11 million people speak portug
 
 const newDescription = `Portugal is in Europe, and its 11 million people speak portuguese.`;
 console.log(newDescription);
+*/
