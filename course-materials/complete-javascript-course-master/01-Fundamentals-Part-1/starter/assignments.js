@@ -62,4 +62,13 @@ console.log('19' - '13' + 17);
 console.log('123' < 57);
 console.log(5 + 6 + '4' + 9 - 4 - 2);
 
+const numNeigbors = Number(prompt(`How many neighboring countries does your contry have?`));
+
+if (numNeigbors === 1) {
+    console.log(`Only 1 border!`)
+} else if (numNeigbors > 1) {
+    console.log(`More than 1 border!`)
+} else {
+    console.log(`No borders!`)
+}
 */
