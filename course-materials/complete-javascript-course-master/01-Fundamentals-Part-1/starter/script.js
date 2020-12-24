@@ -166,8 +166,6 @@ if (birthYear <= 2000) {
 }
 console.log(century)
 
-*/
-
 // Coding Challenge #2
 
 // Coding Challenge #1 - Reused Code
@@ -178,7 +176,7 @@ const johnHeight = 1.95;
 
 let markBMI = markMass / markHeight ** 2;
 let johnBMI = johnMass / johnHeight ** 2;
-// 
+//
 
 if (markBMI > johnBMI) {
     console.log(`John's BMI (${johnBMI}) is lower than Mark's BMI (${markBMI})!`)
@@ -186,5 +184,26 @@ if (markBMI > johnBMI) {
     console.log(`Mark's BMI (${markBMI}) is lower than John's BMI (${johnBMI})!`)
 }
 
+// Lecture: Type Conversion and Coercion
 
+// type conversion
+const inputYear = '1991';
+console.log(Number(inputYear), inputYear);
+console.log(Number(inputYear) + 18);
 
+console.log(Number('Justice'));
+console.log(typeof NaN);
+
+console.log(String(25), 25);
+
+// type coercion
+console.log(`I am ` + 25 + ` years old.`)
+console.log(`23` - `10` - 3);
+console.log(`23` / `2`)
+console.log(`23` > `18`)
+
+let n = `1` + 1; // `11`
+n = n - 1;
+console.log(n);
+
+*/
