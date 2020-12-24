@@ -167,3 +167,24 @@ if (birthYear <= 2000) {
 console.log(century)
 
 */
+
+// Coding Challenge #2
+
+// Coding Challenge #1 - Reused Code
+const markMass = 78;
+const markHeight = 1.69;
+const johnMass = 92;
+const johnHeight = 1.95;
+
+let markBMI = markMass / markHeight ** 2;
+let johnBMI = johnMass / johnHeight ** 2;
+// 
+
+if (markBMI > johnBMI) {
+    console.log(`John's BMI (${johnBMI}) is lower than Mark's BMI (${markBMI})!`)
+} else {
+    console.log(`Mark's BMI (${markBMI}) is lower than John's BMI (${johnBMI})!`)
+}
+
+
+
