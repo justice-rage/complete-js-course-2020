@@ -84,7 +84,6 @@ if (speaksEnglish && lessThan50MillionPopulation && notAnIsland) {
 } else {
     console.log(`Sarah needs to keep looking.`);
 }
-*/
 
 const language = 'mandarin';
 
@@ -106,4 +105,5 @@ switch (language) {
         break;
     default:
         console.log(`Great language too`);
-} 
+}
+*/
