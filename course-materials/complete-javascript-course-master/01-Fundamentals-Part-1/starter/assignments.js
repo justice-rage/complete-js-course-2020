@@ -1,4 +1,5 @@
 /*
+
 // Lecture: Values and Variables
 
 let country = 'U.S.A'
@@ -56,19 +57,32 @@ if (population > 33000000) {
 // false
 // 117
 
-console.log('9' - '5');
-console.log('19' - '13' + '17');
-console.log('19' - '13' + 17);
-console.log('123' < 57);
-console.log(5 + 6 + '4' + 9 - 4 - 2);
+// console.log('9' - '5');
+// console.log('19' - '13' + '17');
+// console.log('19' - '13' + 17);
+// console.log('123' < 57);
+// console.log(5 + 6 + '4' + 9 - 4 - 2);
 
-const numNeigbors = Number(prompt(`How many neighboring countries does your contry have?`));
+// const numNeigbors = Number(prompt(`How many neighboring countries does your contry have?`));
 
-if (numNeigbors === 1) {
-    console.log(`Only 1 border!`)
-} else if (numNeigbors > 1) {
-    console.log(`More than 1 border!`)
+// if (numNeigbors === 1) {
+//     console.log(`Only 1 border!`)
+// } else if (numNeigbors > 1) {
+//     console.log(`More than 1 border!`)
+// } else {
+//     console.log(`No borders!`)
+// }
+
+// Lecture: Logical Operators
+
+const speaksEnglish = true;
+const lessThan50MillionPopulation = false;
+const notAnIsland = true;
+
+if (speaksEnglish && lessThan50MillionPopulation && notAnIsland) {
+    console.log(`Sarah has found the perfect country.`);
 } else {
-    console.log(`No borders!`)
+    console.log(`Sarah needs to keep looking.`);
 }
+
 */
