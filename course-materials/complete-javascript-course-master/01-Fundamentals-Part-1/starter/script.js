@@ -281,3 +281,44 @@ if (hasDriversLicense && hasGoodVision && !isTired) {
 }
 */
 
+// Coding Challenge #3
+
+// Test Data
+// const dolphinsScoreGame1 = 96;
+// const dolphinsScoreGame2 = 108;
+// const dolphinsScoreGame3 = 89;
+// const koalasScoreGame1 = 88;
+// const koalasScoreGame2 = 91;
+// const koalasScoreGame3 = 110;
+
+// Test Data Bonus 1
+// const dolphinsScoreGame1 = 97;
+// const dolphinsScoreGame2 = 112;
+// const dolphinsScoreGame3 = 101;
+// const koalasScoreGame1 = 109;
+// const koalasScoreGame2 = 95;
+// const koalasScoreGame3 = 123;
+
+// Test Data 2
+const dolphinsScoreGame1 = 97;
+const dolphinsScoreGame2 = 112;
+const dolphinsScoreGame3 = 101;
+const koalasScoreGame1 = 109;
+const koalasScoreGame2 = 95;
+const koalasScoreGame3 = 106;
+
+// Teams' Average Scores
+const dolphinsAverageScore = (dolphinsScoreGame1 + dolphinsScoreGame2 + dolphinsScoreGame3) / 3;
+const koalasAverageScore = (koalasScoreGame1 + koalasScoreGame2 + koalasScoreGame3) / 3;
+
+console.log(dolphinsAverageScore, koalasAverageScore);
+
+if ((dolphinsAverageScore && koalasAverageScore) < 100) {
+    console.log(`No winners declared. Both teams didn't score the necessary points.`);
+} else if ((dolphinsAverageScore >= 100) && (dolphinsAverageScore > koalasAverageScore)) {
+    console.log(`The Dolphins are the winners!`);
+} else if ((koalasAverageScore >= 100) && (koalasAverageScore > dolphinsAverageScore)) {
+    console.log(`The Koalas are the winners!`);
+} else if (koalasAverageScore === dolphinsAverageScore) {
+    console.log(`It's a draw!`)
+}
