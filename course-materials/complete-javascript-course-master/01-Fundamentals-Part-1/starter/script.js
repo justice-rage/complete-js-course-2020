@@ -343,10 +343,10 @@ const day = 'monday';
 //         break;
 //     case 'saturday':
 //     case 'sunday':
-//         console.log(`Enjoy the weekend`)
+//         console.log(`Enjoy the weekend`);
 //         break;
 //     default:
-//         console.log(`Not a valid day.`)
+//         console.log(`Not a valid day.`);
 // }
 
 if (day === 'monday') {
