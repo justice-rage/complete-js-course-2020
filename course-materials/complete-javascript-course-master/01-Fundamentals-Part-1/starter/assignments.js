@@ -1,10 +1,9 @@
 /*
-
 // Lecture: Values and Variables
 
-let country = 'U.S.A'
-const continent = 'North America'
-let population = 375000000
+let country = 'U.S.A';
+const continent = 'North America';
+const population = 375000000;
 
 console.log(country);
 console.log(continent);
@@ -75,35 +74,38 @@ if (population > 33000000) {
 
 // Lecture: Logical Operators
 
-const speaksEnglish = true;
-const lessThan50MillionPopulation = false;
-const notAnIsland = true;
+// const speaksEnglish = true;
+// const lessThan50MillionPopulation = false;
+// const notAnIsland = true;
 
-if (speaksEnglish && lessThan50MillionPopulation && notAnIsland) {
-    console.log(`Sarah has found the perfect country.`);
-} else {
-    console.log(`Sarah needs to keep looking.`);
-}
+// if (speaksEnglish && lessThan50MillionPopulation && notAnIsland) {
+//     console.log(`Sarah has found the perfect country.`);
+// } else {
+//     console.log(`Sarah needs to keep looking.`);
+// }
 
-const language = 'mandarin';
+// const language = 'mandarin';
 
-switch (language) {
-    case 'mandarin':
-        console.log(`Most number of native speakers!`);
-        break;
-    case 'spanish':
-        console.log(`2nd place in number of speakers`);
-        break;
-    case 'english':
-        console.log(`3rd place`);
-        break;
-    case 'hindi':
-        console.log(`Number 4`);
-        break;
-    case 'arabic':
-        console.log(`5th most spoken language`);
-        break;
-    default:
-        console.log(`Great language too`);
-}
+// switch (language) {
+//     case 'mandarin':
+//         console.log(`Most number of native speakers!`);
+//         break;
+//     case 'spanish':
+//         console.log(`2nd place in number of speakers`);
+//         break;
+//     case 'english':
+//         console.log(`3rd place`);
+//         break;
+//     case 'hindi':
+//         console.log(`Number 4`);
+//         break;
+//     case 'arabic':
+//         console.log(`5th most spoken language`);
+//         break;
+//     default:
+//         console.log(`Great language too`);
+// }
+
+const myCountryPopulation = population > 33000000 ? `America's population is above average.` : `America's population is below average.`;
+console.log(myCountryPopulation);
 */
