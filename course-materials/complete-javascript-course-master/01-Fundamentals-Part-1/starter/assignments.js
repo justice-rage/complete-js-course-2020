@@ -1,3 +1,5 @@
+// Part 1 - Lecture Assignments
+
 /*
 // Lecture: Values and Variables
 
