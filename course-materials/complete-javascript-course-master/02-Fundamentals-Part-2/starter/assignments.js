@@ -15,8 +15,8 @@ const mexico = describeCountry(`Mexico`, 126000000, `Mexico City`);
 
 // Function Declarations
 const china = percentageOfWorld1(1441000000);
-const usa = percentageOfWorld1(375000000);
-const canada = percentageOfWorld1(40000000);
+// const usa = percentageOfWorld1(375000000);
+// const canada = percentageOfWorld1(40000000);
 
 function percentageOfWorld1(population) {
     return ((population / 7900000000) * 100);
@@ -44,10 +44,23 @@ console.log(canada2);
 
 const percentageOfWorld3 = population => ((population / 7900000000) * 100);
 
-const china = percentageOfWorld3(1441000000);
+// const china = percentageOfWorld3(1441000000);
 console.log(china);
-const usa = percentageOfWorld3(375000000);
+// const usa = percentageOfWorld3(375000000);
 console.log(usa);
-const canada = percentageOfWorld3(40000000);
+// const canada = percentageOfWorld3(40000000);
 console.log(canada);
+
+
+// Lecture: Functions Calling Other Functions
+
+const describePopulation = function (country, population) {
+    const percentage = percentageOfWorld1(population);
+    const description = `${country} has ${population} people, which is about ${percentage}% of the world.`;
+    console.log(description);
+};
+
+describePopulation(`China`, 1441000000);
+describePopulation(`USA`, 375000000);
+describePopulation(`Canada`, 47000000);
 */
