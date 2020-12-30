@@ -111,4 +111,38 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 
 console.log(yearsUntilRetirement(1991, `Jonas`));
 console.log(yearsUntilRetirement(1950, ` Mike`));
+
+// Coding Challenge #1
+
+// 1)
+
+// Arrow function
+const calcAverage = (a, b, c) => (a + b + c) / 3;
+console.log(calcAverage(7, 4, 8));
+
+// 2)
+let dolphinsAverage = calcAverage(44, 23, 71);
+let koalasAverage = calcAverage(65, 54, 49);
+console.log(dolphinsAverage, koalasAverage);
+
+// 3)
+const checkWinner = function (dolphinsAverage, koalasAverage) {
+    if (dolphinsAverage >= 2 * koalasAverage) {
+        console.log(`Dolphins win - ${dolphinsAverage} vs. ${koalasAverage}`);
+    } else if (koalasAverage >= 2 * dolphinsAverage) {
+        console.log(`Koalas win - ${koalasAverage} vs. ${dolphinsAverage}`);
+    } else {
+        console.log(`No one wins.`);
+    }
+}
+
+checkWinner(dolphinsAverage, koalasAverage);
+
+checkWinner(576, 111);
+
+// Test Data 2
+dolphinsAverage = calcAverage(85, 54, 41);
+koalasAverage = calcAverage(23, 34, 27);
+
+checkWinner(dolphinsAverage, koalasAverage);
 */
