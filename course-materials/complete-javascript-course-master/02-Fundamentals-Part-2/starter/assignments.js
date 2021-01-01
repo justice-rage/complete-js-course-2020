@@ -1,4 +1,4 @@
-/*
+
 // Part 2 - Lecture Assignments
 
 // Lecture: Functions
@@ -76,4 +76,3 @@ const dataMexico = percentageOfWorld1(populations[3]);
 
 const percentages = [dataUSA, dataChina, dataCanada, dataMexico];
 console.log(percentages);
-*/
