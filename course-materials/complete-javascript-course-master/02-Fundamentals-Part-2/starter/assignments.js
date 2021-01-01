@@ -63,4 +63,17 @@ const describePopulation = function (country, population) {
 describePopulation(`China`, 1441000000);
 describePopulation(`USA`, 375000000);
 describePopulation(`Canada`, 47000000);
+
+// Lecture: Introduction to Arrays
+
+const populations = [375000000, 1441000000, 47000000, 175000000];
+console.log(populations.length);
+
+const dataUSA = percentageOfWorld1(populations[0]);
+const dataChina = percentageOfWorld1(populations[1]);
+const dataCanada = percentageOfWorld1(populations[2]);
+const dataMexico = percentageOfWorld1(populations[3]);
+
+const percentages = [dataUSA, dataChina, dataCanada, dataMexico];
+console.log(percentages);
 */
