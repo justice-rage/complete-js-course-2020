@@ -1,4 +1,4 @@
-
+/*
 // Part 2 - Lecture Assignments
 
 // Lecture: Functions
@@ -76,3 +76,24 @@ const dataMexico = percentageOfWorld1(populations[3]);
 
 const percentages = [dataUSA, dataChina, dataCanada, dataMexico];
 console.log(percentages);
+
+// Lecture: Basic Array Operations (Methods)
+
+const neighbours = [`canada`, `mexico`];
+console.log(neighbours);
+
+neighbours.push(`Utopia`);
+console.log(neighbours);
+
+neighbours.pop();
+console.log(neighbours);
+
+
+
+if (!neighbours.includes(`germany`)) {
+    console.log(`Probably not a central European country.`);
+}
+
+neighbours[neighbours.indexOf(`canada`)] = `brazil`;
+console.log(neighbours);
+*/
