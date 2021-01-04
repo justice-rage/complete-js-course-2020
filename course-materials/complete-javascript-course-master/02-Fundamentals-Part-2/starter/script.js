@@ -285,4 +285,44 @@ console.log(justice);
 // `Justice has 3 friends, and his best friend is Michael`
 
 console.log(`${justice.firstName} has ${justice.cats.length} cats, and his oldest is ${justice.cats[2]}.`);
+
+// Lecture: Object Methods
+
+const justice = {
+    firstName: `justice`,
+    lastName: `douglas`,
+    birthYear: 1995,
+    job: `software engineer`,
+    friends: [`marcos`, `sarah`, `tal`],
+    hasDriverLicense: true,
+
+    // calcAge: function (birthYear) {
+    //     return 2020 - birthYear;
+    // }
+
+    // calcAge: function () {
+    //     // console.log(this);
+    //     return 2020 - this.birthYear;
+    // }
+
+    calcAge: function () {
+        this.age = 2020 - this.birthYear;
+        return this.age;
+    },
+
+    getSummary: function () {
+        return `${this.firstName} is a ${this.calcAge()}-year old ${this.job}, and he has ${this.hasDriverLicense ? `a` : `no`} drivers license.`
+    }
+};
+
+console.log(justice.calcAge());
+
+console.log(justice.age);
+console.log(justice.age);
+console.log(justice.age);
+
+// Challenge
+console.log(`${justice.firstName} is a ${justice.age}-year old ${justice.job}, and he has ${justice.driversLicenseNoA} drivers license.`)
+
+console.log(justice.getSummary());
 */
