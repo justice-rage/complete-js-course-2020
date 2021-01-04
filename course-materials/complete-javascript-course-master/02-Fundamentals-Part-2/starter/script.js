@@ -219,7 +219,7 @@ console.log(friends.includes(23));
 if (friends.includes(`Steven`)) {
     console.log(`You have a friend named Steven.`);
 }
-*/
+
 
 // Coding Cahllenge #2
 
@@ -236,3 +236,53 @@ const tips = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])];
 const totals = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
 
 console.log(bills, tips, totals);
+
+// Lecture: Introduction to Objects
+
+const justice = {
+    firstName: `justice`,
+    lastName: `douglas`,
+    age: 2021 - 1995,
+    job: `software engineer`,
+    cats: [`velma`, `vulcan`, `vader`]
+};
+
+//  Lecture: Dot vs. Bracket Notation
+
+const justice = {
+    firstName: `justice`,
+    lastName: `douglas`,
+    age: 2021 - 1995,
+    job: `software engineer`,
+    cats: [`velma`, `vulcan`, `vader`],
+    numFriends: 3,
+    bestfriend: `michael`
+};
+console.log(justice);
+
+console.log(justice.lastName);
+console.log(justice[`lastName`]);
+
+const nameKey = `Name`;
+console.log(justice[`first` + nameKey]);
+console.log(justice[`last` + nameKey]);
+
+// console.log(justice.`last` + nameKey);
+
+const interestedIn = prompt(`What do you want to know about Justice? Choose between firstName, lastName, age, job, and friends`);
+
+if (justice[interestedIn]) {
+    console.log(justice[interestedIn]);
+} else {
+    console.log(`Wrong request! Choose between firstName, lastName, age, job, and friends`)
+}
+
+justice.location = `Pittsburgh`;
+justice[`twitter`] = `@mr-justice`;
+console.log(justice);
+
+// Challenge
+// `Justice has 3 friends, and his best friend is Michael`
+
+console.log(`${justice.firstName} has ${justice.cats.length} cats, and his oldest is ${justice.cats[2]}.`);
+*/
