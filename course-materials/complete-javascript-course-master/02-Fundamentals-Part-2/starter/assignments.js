@@ -1,4 +1,4 @@
-/*
+
 // Part 2 - Lecture Assignments
 
 // Lecture: Functions
@@ -96,4 +96,13 @@ if (!neighbours.includes(`germany`)) {
 
 neighbours[neighbours.indexOf(`canada`)] = `brazil`;
 console.log(neighbours);
-*/
+
+// Lecture: Introduction to Objects
+
+const myCountry = {
+    country: `australia`,
+    capital: `canberra`,
+    language: `english`,
+    population: 25000000,
+    neighbours: [`new zealand`, `china`, `japan`]
+}
