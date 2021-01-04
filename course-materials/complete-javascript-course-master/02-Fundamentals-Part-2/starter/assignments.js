@@ -1,4 +1,4 @@
-
+/*
 // Part 2 - Lecture Assignments
 
 // Lecture: Functions
@@ -104,5 +104,14 @@ const myCountry = {
     capital: `canberra`,
     language: `english`,
     population: 25000000,
-    neighbours: [`new zealand`, `china`, `japan`]
+    neighbours: []
 }
+
+// Lecture: Dot vs. Bracket Notation
+
+// console.log(`${myCountry.country} has ${myCountry.population} ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
+
+// console.log(`${myCountry.country} has ${myCountry.population + 2000000} ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
+
+// console.log(`${myCountry.country} has ${myCountry[`population`] - 2000000} ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
+*/
