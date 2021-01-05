@@ -174,4 +174,23 @@ const listOfNeighbours = [
 for (let i = 0; i < listOfNeighbours.length; i++)
     for (let y = 0; y < listOfNeighbours[i].length; y++)
         console.log(`Neighbour: ${listOfNeighbours[i][y]}`);
+
+// Lecture: The while Loop
+
+const populations3 = [
+    375000000,
+    1441000000,
+    47000000,
+    175000000
+];
+
+const percentages3 = [];
+
+let i = 0;
+while (i < populations3.length) {
+    console.log(percentageOfWorld1(populations3[i]));
+    i++
+}
+
+console.log(percentageOfWorld1(375000000));
 */
