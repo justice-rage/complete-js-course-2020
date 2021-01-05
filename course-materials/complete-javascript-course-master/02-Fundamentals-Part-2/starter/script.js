@@ -367,4 +367,52 @@ if (mark.bmi > john.bmi) {
 for (let rep = 1; rep <= 10; rep++) {
     console.log(`Lifting weights repetition ${rep}`);
 }
+
+// Lecture: Looping Arrays, Breaking and Continuing
+
+const justice = [
+    `justice`,
+    `douglas`,
+    2020 - 1995,
+    `software engineer`,
+    [`marcos`, `sarah`, `tal`],
+    true
+];
+
+const types = [];
+
+for (let i = 0; i < justice.length; i++) {
+    // reading from justice array
+    console.log(justice[i], typeof justice[i]);
+
+    // Filling types array
+    // types[i] = typeof justice[i];
+    types.push(typeof justice[i]);
+}
+
+console.log(types);
+
+const years = [1995, 2007, 1969, 2020];
+const ages = [];
+
+for (let i = 0; i < years.length; i++) {
+    ages.push(2037 - years[i]);
+}
+
+console.log(ages);
+
+// continue and break
+console.log(`----ONLY STRINGS----`);
+for (let i = 0; i < justice.length; i++) {
+    if (typeof justice[i] !== `string`) continue;
+
+    console.log(justice[i], typeof justice[i]);
+}
+
+console.log(`----BREAK WITH NUMBER----`);
+for (let i = 0; i < justice.length; i++) {
+    if (typeof justice[i] === `number`) break;
+
+    console.log(justice[i], typeof justice[i]);
+}
 */
