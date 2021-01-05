@@ -325,4 +325,40 @@ console.log(justice.age);
 console.log(`${justice.firstName} is a ${justice.age}-year old ${justice.job}, and he has ${justice.driversLicenseNoA} drivers license.`)
 
 console.log(justice.getSummary());
+
+// Coding Challenge #3
+
+const mark = {
+    firstName: `mark`,
+    lastName: `miller`,
+    mass: 78,
+    height: 1.69,
+
+    calcBMI: function () {
+        this.bmi = (this.mass / this.height ** 2)
+        return this.bmi;
+    }
+}
+
+const john = {
+    firstName: `john`,
+    lastName: `smith`,
+    mass: 92,
+    height: 1.95,
+
+    calcBMI: function () {
+        this.bmi = (this.mass / this.height ** 2)
+        return this.bmi;
+    }
+}
+
+mark.calcBMI();
+john.calcBMI();
+
+if (mark.bmi > john.bmi) {
+    console.log(`${mark.firstName}'s BMI (${mark.bmi}) is higher than ${john.firstName}'s BMI (${john.bmi})!`)
+} else {
+    console.log(`${john.firstName}'s BMI (${john.bmi}) is higher than ${mark.firstName}'s BMI (${mark.bmi})!`)
+}
+
 */

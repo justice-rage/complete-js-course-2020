@@ -1,4 +1,4 @@
-
+/*
 // Part 2 - Lecture Assignments
 
 // Lecture: Functions
@@ -139,3 +139,4 @@ const myCountry = {
 
 console.log(myCountry.describe());
 console.log(myCountry);
+*/
