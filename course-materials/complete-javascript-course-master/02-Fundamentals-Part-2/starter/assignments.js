@@ -1,4 +1,4 @@
-/*
+
 // Part 2 - Lecture Assignments
 
 // Lecture: Functions
@@ -99,13 +99,17 @@ console.log(neighbours);
 
 // Lecture: Introduction to Objects
 
-const myCountry = {
-    country: `australia`,
-    capital: `canberra`,
-    language: `english`,
-    population: 25000000,
-    neighbours: []
-}
+// const myCountry = {
+//     country: `australia`,
+//     capital: `canberra`,
+//     language: `english`,
+//     population: 25000000,
+//     neighbours: [],
+
+//     describe: function () {
+//         return `${this.country} has ${this.population} ${this.language}-speaking people, ${this.neighbours} neighbouring countries and a capital called ${this.capital}.`
+//     }
+// }
 
 // Lecture: Dot vs. Bracket Notation
 
@@ -114,4 +118,24 @@ const myCountry = {
 // console.log(`${myCountry.country} has ${myCountry.population + 2000000} ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
 
 // console.log(`${myCountry.country} has ${myCountry[`population`] - 2000000} ${myCountry.language}-speaking people, ${myCountry.neighbours.length} neighbouring countries and a capital called ${myCountry.capital}.`);
-*/
+
+// Lecture: Object Methods
+
+const myCountry = {
+    country: `australia`,
+    capital: `canberra`,
+    language: `english`,
+    population: 25000000,
+    neighbours: [0],
+
+    describe: function () {
+        return `${this.country} has ${this.population} ${this.language}-speaking people, ${this.neighbours} neighbouring countries and a capital called ${this.capital}.`
+    },
+
+    checkIsIsland: function () {
+        this.isIsland = !Boolean(this.neighbours.length);
+    }
+}
+
+console.log(myCountry.describe());
+console.log(myCountry);
