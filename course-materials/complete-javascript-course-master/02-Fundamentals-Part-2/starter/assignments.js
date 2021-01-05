@@ -145,4 +145,21 @@ console.log(myCountry);
 for (let voter = 1; voter <= 50; voter++) {
     console.log(`Voter number ${voter} is currently voting.`);
 }
+
+// Lecture: Looping Arrays, Breaking and Continuing
+
+const populations2 = [
+    375000000,
+    1441000000,
+    47000000,
+    175000000
+];
+
+const percentages2 = [];
+
+for (let i = 0; i < populations2.length; i++) {
+    console.log(percentageOfWorld1(populations2[i]));
+}
+
+console.log(percentageOfWorld1(375000000));
 */
