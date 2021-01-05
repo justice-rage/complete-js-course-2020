@@ -361,4 +361,10 @@ if (mark.bmi > john.bmi) {
     console.log(`${john.firstName}'s BMI (${john.bmi}) is higher than ${mark.firstName}'s BMI (${mark.bmi})!`)
 }
 
+// Lecture: Iteration: The for Loop
+
+// For loop keeps running while condition is True
+for (let rep = 1; rep <= 10; rep++) {
+    console.log(`Lifting weights repetition ${rep}`);
+}
 */
