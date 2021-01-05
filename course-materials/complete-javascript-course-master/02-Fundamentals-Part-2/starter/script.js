@@ -415,4 +415,30 @@ for (let i = 0; i < justice.length; i++) {
 
     console.log(justice[i], typeof justice[i]);
 }
+
+// Lecture: Looping Backwards and Loops in Loops
+
+const justice = [
+    `justice`,
+    `douglas`,
+    2020 - 1995,
+    `software engineer`,
+    [`marcos`, `sarah`, `tal`],
+    true
+];
+
+// Reverse for Loop
+// 4, 3, 2, 1, 0
+for (let i = justice.length - 1; i >= 0; i--) {
+    console.log(i, justice[i]);
+}
+
+// Sets
+for (let exercise = 1; exercise < 4; exercise++) {
+    console.log(`------ Starting exercise ${exercise}`);
+    // Reps
+    for (let rep = 1; rep < 6; rep++) {
+        console.log(`Exercise ${exercise}: Lifting weight repitition ${rep}`)
+    }
+}
 */
